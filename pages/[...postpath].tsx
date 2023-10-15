@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`http://www.naom.unaux.com/2023/10/15/monetag-network-workers/` + encodeURI(path as string)
+					`http://www.naom.unaux.com/2023/10/15/monetag-network-workers/`
 				}`,
 			},
 		};
